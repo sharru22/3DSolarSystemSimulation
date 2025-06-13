@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+body.light-mode {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  pointer-events: none;
+  font-size: 14px;
+  display: none;
+  z-index: 10;
+}
+
+.light-mode #tooltip {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+#controls, #toggleAnimation, #themeToggle {
+  position: absolute;
+  z-index: 1;
+}
+
+#controls {
+  top: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+  color: white;
+}
+
+#toggleAnimation, #themeToggle {
+  padding: 10px 20px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggleAnimation {
+  top: 10px;
+  right: 10px;
+}
+
+#themeToggle {
+  top: 60px;
+  right: 10px;
+}
+
+.slider-container {
+  margin-bottom: 10px;
+}
+
+input[type="range"] {
+  width: 150px;
+}
+
+#page-title {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  z-index: 100;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body.light-mode #page-title {
+  color: black;
+}
