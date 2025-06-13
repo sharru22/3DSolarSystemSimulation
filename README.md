@@ -26,7 +26,7 @@ rings. - *Speed Control*: Adjust the orbital speed of each planet with interacti
 theme. 
 3. Customize the *CSS* for more styling options or layout changes. 
 4. If you want to add more planets or features, feel free to modify the existing code. 
-## Demo Video - Watch the project in action: [Demo Video] 
+
 ## Contact 
 For any issues or suggestions, please feel free to reach out to me: - *Shaik Sharmin Kowshin* - Email: [sharminshaik547@gmail.com](mailto:sharminshaik547@gmail.com) 
 Thank you for checking out my 3D Solar System Simulation!
